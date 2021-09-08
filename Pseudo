@@ -1,0 +1,25 @@
+1)
+Integer fun( Integer p, Integer q)
+Integer k
+Set k = 0
+if( p > 0 && q > 0 )
+k = k + 1
+fun (p-1, q)
+end if
+return k
+End function fun()
+2)
+Integer fun(integer a)
+if(a EQUALS 0)
+return a + 9
+else
+return fun(a-1)
+End function fun()
+3)
+Integer i
+Set i = 45
+if( i mod 2 EQUALS 0 OR i mod 2 AND i )
+printf i mod 2
+else
+print i
+end if
