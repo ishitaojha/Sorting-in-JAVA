@@ -23,3 +23,10 @@ printf i mod 2
 else
 print i
 end if
+4)
+Integer prime( Integer number)
+if ( number less than equal to 1)
+return 1
+else
+return ( number * number * number + prime( number - 1))
+End function prime()
